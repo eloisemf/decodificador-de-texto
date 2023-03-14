@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decifra-me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="logo">
+      <img src="img/logo.svg" alt="A de alura" />
+    </header>
+
+    <main>
+      <section class="s1">
+        <textarea
+                name=""
+                id="txt1"
+                cols="30"
+                rows="10"
+                placeholder="Digite seu texto"
+                required
+        ></textarea>
+        <div class="aviso">
+          <img src="img/aviso.svg" alt="Atenção" />
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+          <div id="buttons">
+            <button class="b1">Criptografar</button>
+            <button class="b2">Descriptografar</button>
+          </div>
+      </section>
+      <section class="s2">
+        <textarea name="" id="mensagem" cols="40" rows="10"></textarea>
+      </section>
+      
+
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
